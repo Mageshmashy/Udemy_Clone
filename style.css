@@ -19,6 +19,12 @@
     gap: 20px;
     align-items: center;
 }
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 0px;
+}
 
 .title h1 {
     color: #A435F0;
@@ -79,6 +85,9 @@ cursor: pointer;
    
     color: #A435F0;
 
+} */
+/* .menu{
+    display: none;
 } */
 
 .icon {
@@ -493,6 +502,12 @@ cursor: pointer;
 @media screen and (max-width:600px){
     .course_card{
         flex-basis: 40%;
+    }
+    .nav,.search,.topic,.icon{
+        display: none;
+    }
+    .menu{
+        display: block;
     }
 
 }
